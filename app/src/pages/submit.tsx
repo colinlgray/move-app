@@ -1,14 +1,14 @@
 import type { NextPage } from "next";
-import { HomeView } from "../views";
-
+import { SubmitView } from "../views";
 import { AppTitle } from "../components/AppTitle";
-const Home: NextPage = (props) => {
+
+const Submit: NextPage = (props) => {
   return (
     <div>
       <AppTitle />
-      <HomeView />
+      <SubmitView />
     </div>
   );
 };
 
-export default Home;
+export default Submit;
