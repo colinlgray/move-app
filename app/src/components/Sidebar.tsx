@@ -39,14 +39,14 @@ export const Sidebar: FC = () => {
       <div className="sidebar-header flex items-center justify-center py-4">
         <div className="inline-flex">
           <a href="#" className="inline-flex flex-row items-center">
-            <h1 className="leading-10 text-4xl pb-2 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+            <h1 className="leading-10 text-4xl pb-2 font-bold text-transparent bg-clip-text text-white">
               Idling
             </h1>
           </a>
         </div>
       </div>
       <div className="sidebar-content px-4 py-6">
-        <div className="flex flex-col w-full">
+        <div className=" hidden flex flex-col w-full">
           {appRoutes.map((r) => (
             <ListElement
               label={r.label}
