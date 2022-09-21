@@ -4,8 +4,8 @@ import Head from "next/head";
 export const AppTitle: FC = () => {
   return (
     <Head>
-      <title>Idling</title>
-      <meta name="description" content="Idling shop" />
+      <title>Hell</title>
+      <meta name="description" content="Eternal Damnation" />
     </Head>
   );
 };
