@@ -18,7 +18,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
       <ContextProvider>
         <Notifications />
         <div className="flex flex-row min-h-screen bg-black text-white">
-          <main className="main flex flex-col flex-grow -ml-64 md:ml-0 transition-all duration-150 ease-in">
+          <main className="main flex flex-col flex-grow transition-all duration-150 ease-in">
             <div className="main-content flex flex-col flex-grow">
               <ContentContainer>
                 <Component {...pageProps} />

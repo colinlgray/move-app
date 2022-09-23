@@ -35,17 +35,7 @@ export const Footer: FC = () => {
   const router = useRouter();
   return (
     <footer className="md:hidden footer px-4 py-6">
-      <div className="flex">
-        {appRoutes.map((r) => (
-          <ListElement
-            label={r.label}
-            emoji={r.emoji}
-            path={r.path}
-            router={router}
-            key={r.label}
-          />
-        ))}
-      </div>
+      <div className="flex"></div>
     </footer>
   );
 };
